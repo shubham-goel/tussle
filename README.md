@@ -6,6 +6,9 @@ This is a Windows 8 Universal application built over HTML/JS using Microsoft Vis
 
 ## Team
 [@shubham-goel](https://github.com/shubham-goel)
+
 [@sumith1896](https://github.com/sumith1896)
+
 [@theQmech](https://github.com/theQmech)
+
 [@govindlahoti](https://github.com/govindlahoti)

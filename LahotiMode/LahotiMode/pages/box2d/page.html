@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>page</title>
+
+    <link href="page.css" rel="stylesheet" />
+    <script src="page.js"></script>
+</head>
+<body>
+    <div class="page fragment">
+        <header class="page-header" aria-label="Header content" role="banner">
+            <button class="back-button" data-win-control="WinJS.UI.BackButton"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Yoda goes for a ride!</span>
+            </h1>
+        </header>
+        <section class="page-section" aria-label="Main content" role="main">
+            <p style="font-size:30px">
+                Time is of the essence! Yoda must reach his lightsaber as quickly as possible. Help him by choosing an appropriate jeep to ride in.
+            </p>
+            <div style="text-align:center">
+                <canvas id="canvas_area" width="900" height="700"></canvas>
+            </div>
+            <button id="btn1" style="position:absolute; top:500px; left:20%">Jeep A</button>
+            <button id="btn2" style="position:absolute; top:500px; left:60%">Jeep B</button>
+            <p style="font-size:40px">Timer: <span id="timer" style="font-weight: bold"></span></p>
+        </section>
+    </div>
+</body>
+</html>

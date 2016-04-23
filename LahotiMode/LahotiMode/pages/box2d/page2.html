@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>page</title>
+
+    <link href="page.css" rel="stylesheet" />
+    <script src="page2.js"></script>
+</head>
+<body onload="init();">
+    <div class="page fragment">
+        <header class="page-header" aria-label="Header content" role="banner">
+            <button class="back-button" data-win-control="WinJS.UI.BackButton"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Yoda goes for a swim</span>
+            </h1>
+        </header>
+        <section class="page-section" aria-label="Main content" role="main">
+            <p style="font-size:30px">
+                Yoda has to cross a river flowing east to reach his lightsaber. Suggest a vertical velocity to help Yoda reach his lightsaber! <br /> Beware: The river motion affects Yoda.
+            </p>
+            <br />
+            <br />
+            <canvas id="canvas_area" width="900" height="500"></canvas>
+            <input id="inp" type="number" min="5" max="100" step="5" placeholder="Enter Yoda's Vertical Velocity">
+            <button id="submit_btn">OK</button>
+        </section>
+    </div>
+</body>
+</html>

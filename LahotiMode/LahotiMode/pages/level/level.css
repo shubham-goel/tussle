@@ -1,0 +1,58 @@
+﻿.level section {
+	margin: auto 120px;
+}
+
+.phone .level .page-section {
+	margin: auto 24px;
+}
+
+.phone .level .page-header .titlearea {
+	-ms-grid-column: 1;
+	margin-top: 37px;
+	margin-left: 24px;
+	font-size: 28pt;
+	width: calc(100vw - 20px);
+}
+
+.phone .level .back-button {
+	display: none;
+}
+
+.fragment {
+	-ms-grid-columns: 1fr;
+	-ms-grid-rows: 128px 1fr;
+	display: -ms-grid;
+	height: 100%;
+	width: 100%;
+}
+
+	.fragment section[role=main] {
+		-ms-grid-row: 2;
+		height: 100%;
+	}
+
+
+@font-face {
+	src: url('/Starjhol.ttf') format('truetype');
+	font-family: Starjhol;
+}
+ @font-face {
+    src: url('/STJEDISE.TTF') format('truetype');
+   	font-family: STJEDISE;
+}
+
+.level_button_head {
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    color: yellow;
+    font-family: STJEDISE;
+    font-weight: bold;
+}
+.level_button1 {
+    width: 100%;
+    text-align: center;
+    font-family: Starjhol;
+    font-size: 50px;
+    color: yellow;
+}

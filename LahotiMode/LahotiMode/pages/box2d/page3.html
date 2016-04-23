@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>page</title>
+
+    <link href="page.css" rel="stylesheet" />
+    <script src="page3.js"></script>
+</head>
+<body>
+    <div class="page fragment">
+        <header class="page-header" aria-label="Header content" role="banner">
+            <button class="back-button" data-win-control="WinJS.UI.BackButton"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Yoda learns to fly!</span>
+            </h1>
+        </header>
+        <section class="page-section" aria-label="Main content" role="main">
+            <p style="font-size:30px">
+                The lightsaber is falling down freely. Yoda jumps immediately to catch it! Tell him which direction to jump in. <br /> Yoda's <span style="color: blue">Initial Velocity</span>  and <span style="color: green">corresponding trajectory</span> have been sketched for your reference.
+            </p>
+            <br />
+            <br />
+            <div style="text-align:center">
+                <canvas id="canvas_area" width="800" height="400"></canvas>
+                <br /><br />
+                <div>
+                    <span style="font-size: 25px">Choose an appropriate angle for Yoda: </span>
+                    <button id="btn2" style="font-size: 30px">+</button>
+                    <span id="inp" style="color:white; font-size: 30px;" >&nbsp;&nbsp;40&nbsp;&nbsp;</span>
+                    <button id="btn1" style="font-size: 30px">-</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button id="submit_btn" style="font-size: 25px">OK</button>
+                </div>
+            </div>
+</section>
+    </div>
+</body>
+</html>
+

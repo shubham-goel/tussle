@@ -1,0 +1,12 @@
+﻿.homepage section[role=main] {
+    margin: auto 120px;
+}
+
+@font-face {
+	src: url('/Starjhol.ttf') format('truetype');
+	font-family: Starjhol;
+}
+ @font-face {
+    src: url('/STJEDISE.TTF') format('truetype');
+   	font-family: STJEDISE;
+}
